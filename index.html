@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Untuk Kamu</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Selamat Ulang Tahun, Sayang!</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Untuk Kamu, Orang Spesialku</h1>
-        <p class="intro">Hai sayang,</p>
-        <p>Ini adalah halaman sederhana yang aku buat untuk menunjukkan betapa aku sayang sama kamu. Terima kasih sudah selalu ada untukku. Kamu adalah alasan aku tersenyum setiap hari ❤</p>
-        <div class="image-container">
-            <img src="fotokita.jpg" alt="Foto kenangan kita">
+        <h1 id="birthday-text">Selamat Ulang Tahun¹⁹, Cintaku!</h1>
+        <p>Semoga diberi umur yang barokah dan bahagia,</p>
+        <p>Terima kasih telah menjadi bagian terbaik dalam hidupku.</p>
+        <button onclick="showMessage()">Klik untuk Kejutan!</button>
+        <div class="hidden-message" id="hidden-message">
+            <p>Semoga hari ini membawa kebahagiaan seperti yang kau berikan kepadaku setiap harinya.</p>
+            <p>💖 Love You Forever¹⁹ 💖</p>
         </div>
-        <p class="closing">Selalu sayang kamu,<br> {Satrio}</p>
+        <canvas id="confetti"></canvas>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
